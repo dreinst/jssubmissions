@@ -1,20 +1,20 @@
 # JS Submissions
 
-Submission **Evaluasi Pembelajaran Akhir** kelas Belajar Dasar Pemrograman JavaScript (Dicoding).
+Submission Evaluasi Pembelajaran Akhir untuk kelas Belajar Dasar Pemrograman JavaScript di Dicoding.
 
-Semua tugas ada di folder `final-assessment/`:
+Semua tugas ada di folder `final-assessment/`. Tiga tugas pertama wajib, sisanya opsional:
 
-| Folder | Status |
-| --- | --- |
-| `01-writing-comments` | wajib |
-| `02-code-style` | wajib |
-| `03-writing-test` | wajib |
-| `optional-04-oop` | opsional |
-| `optional-05-recursive` | opsional |
-| `optional-06-full-coverage-testing` | opsional |
-| `optional-07-real-world-scenario` | opsional |
+- `01-writing-comments` (wajib)
+- `02-code-style` (wajib)
+- `03-writing-test` (wajib)
+- `optional-04-oop`
+- `optional-05-recursive`
+- `optional-06-full-coverage-testing`
+- `optional-07-real-world-scenario`
 
 ## Menjalankan
+
+Perlu Node.js 18 ke atas.
 
 ```bash
 cd final-assessment
@@ -28,7 +28,7 @@ node 02-code-style/index.js
 
 ## Membuat ZIP submission
 
-Dicoding meminta ZIP dari folder `final-assessment` saja, tanpa `.git`, `.DS_Store`, atau `__MACOSX`:
+Dicoding meminta ZIP dari folder `final-assessment` saja, tanpa `.git`, `.DS_Store`, atau `__MACOSX`.
 
 ```bash
 zip -r final-assessment.zip final-assessment -x '*.DS_Store' -x '__MACOSX/*'
